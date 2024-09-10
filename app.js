@@ -1,6 +1,6 @@
 
 let favoriteNum = 11;
-let baseURL = "http://numbersapi.com/";
+let baseURL = "http://numbersapi.com";
 let favoriteNums = [7, 18, 30];
 
 // ======================================
