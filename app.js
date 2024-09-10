@@ -1,6 +1,7 @@
 
 let favoriteNum = 11;
 let baseURL = "http://numbersapi.com/";
+let favoriteNums = [7, 18, 30];
 
 // ======================================
 // ======== PART 1: NUMBER FACTS ========
@@ -15,7 +16,7 @@ $.getJSON(`${baseURL}/${favoriteNum}?json`).then((data => {
 
 // // 2.)
 
-let favoriteNums = [7, 18, 30];
+
 
 $.getJSON(`${baseURL}/${favoriteNums}?json`).then((data => {
     console.log(data);
